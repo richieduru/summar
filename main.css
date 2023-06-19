@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "overpass", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(228, 11%, 9%);
+}
+
+.container {
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.success {
+  height: 40rem;
+  width: 45rem;
+  background-color: hsl(215, 26%, 13%);
+  border-radius: 2rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem;
+}
+.success-value {
+  color: hsl(25, 97%, 53%);
+  font-size: 1.6rem;
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  background-color: hsl(213, 19%, 18%);
+  font-weight: 700;
+}
+.success h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 2.8rem;
+}
+.success-bottom {
+  font-size: 1.5rem;
+  color: hsl(217, 12%, 63%);
+  text-align: center;
+  padding: 5px;
+  line-height: 2.5rem;
+}
+
+.card {
+  height: 40rem;
+  width: 45rem;
+  background-color: hsl(215, 26%, 13%);
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+}
+.card-image {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 18%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.card h1 {
+  color: #fff;
+  font-size: 2.8rem;
+}
+.card p {
+  color: hsl(217, 12%, 63%);
+  font-size: 1.5rem;
+  padding-right: 30px;
+  line-height: 2.5rem;
+}
+.card ul {
+  list-style: none;
+  display: flex;
+}
+.card li {
+  width: 4.5rem;
+  height: 4.5rem;
+  margin-right: 3rem;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(0, 0%, 100%);
+  font-size: 1.4rem;
+}
+.card li:hover {
+  background-color: hsl(217, 12%, 63%);
+}
+.card .list-item {
+  background-color: hsl(25, 97%, 53%);
+}
+.card button {
+  height: 4rem;
+  width: 100%;
+  border-radius: 2rem;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: #fff;
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    height: 40rem;
+    width: 40rem;
+  }
+  .card p {
+    padding-right: 20px;
+  }
+  .card li {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 2.5rem;
+  }
+  .success {
+    height: 40rem;
+    width: 40rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .card {
+    height: 40rem;
+    width: 35rem;
+  }
+  .card li {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-right: 2rem;
+  }
+  .card p {
+    padding-right: 0px;
+  }
+  .success {
+    height: 40rem;
+    width: 35rem;
+    padding: 4rem;
+  }
+}/*# sourceMappingURL=main.css.map */
